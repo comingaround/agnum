@@ -1,3 +1,23 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
+# Allow Facebook crawler complete access
+User-agent: facebookexternalhit
 Disallow:
+
+# Allow LinkedIn crawler complete access
+User-agent: LinkedInBot
+Disallow:
+
+# General settings for all other crawlers
+User-agent: *
+Disallow: /admin/
+Disallow: /scripts/
+Disallow: /css/
+Disallow: /temp/
+Disallow: /logs/
+Disallow: /private.html
+Disallow: /secret-directory/
+Disallow: /support
+Disallow: /terms
+Disallow: /privacy
+
+# Sitemap (include the actual URL to your sitemap)
+Sitemap: https://www.aleksim.online/sitemap.xml
