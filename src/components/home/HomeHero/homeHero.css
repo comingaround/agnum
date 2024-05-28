@@ -99,10 +99,10 @@
     }
     .hhmS_circle {
         position: absolute;
-        top: 21%;
-        left: 17%;
+        top: 22%;
+        left: 18%;
         border: 1px solid black;
-        padding: 8%;
+        padding: 7%;
         border-radius: 50%;
         background-color: black;
     }
