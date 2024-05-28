@@ -6,12 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
+
 }
 .hhm_heading {
     position: relative;
     top: 5%;
     left: 5%;
+    display: inline-block;
 }
 .hhm_heading h1 {
     line-height: 42px;
@@ -19,13 +20,14 @@
 }
 .hhm_solutions {
     position: relative;
-    width: 100%;
+    width: 95%;
     top: 10%;
     left: 5%;
 }
 .hhmS_item {
     display: flex;
     margin: 48px 0;
+    width: 100%;
 }
 .hhmS_item section {
     display: flex;
