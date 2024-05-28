@@ -1,10 +1,16 @@
-
+import React from 'react';
+import CounterComponent from '../components/MobX/counterComponent';
+import "../components/MobX/MobX.css";
 
 
 export default function ApieMus() {
     return(
         <>
-            <h1>Apie mus</h1>
+            <div className="MobX" >
+                <div className="MobX_item">
+                    <CounterComponent />
+                </div>
+            </div>
         </>
     );
 }

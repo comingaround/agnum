@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 export default function Footer() {
@@ -8,7 +9,9 @@ export default function Footer() {
                     <img src="https://agnum.lt/VAADIN/build/image_agnum_home-598866d5.png" alt="logo" />
                 </div>
                 <div className="footer_button">
-                    <button>Išbandyk nemokamai</button>
+                    <div className="navbar_callto">
+                        <Link to="/isbandyknemokamai">Išbandyk nemokamai</Link>
+                    </div>
                 </div>
                 <div className="footer_contacts">
                     <h6>Kontaktai</h6>

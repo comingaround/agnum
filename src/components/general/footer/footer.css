@@ -10,10 +10,11 @@
     width: 33%;
     text-align: center;
 }
-.footer_button button {
-    padding: 8px 12px;
+.footer_button .navbar_callto a {
+    color: black;
     border-radius: 8px;
     border: none;
+    background-color: white;
 }
 .footer_logo img {
     width: 40%;

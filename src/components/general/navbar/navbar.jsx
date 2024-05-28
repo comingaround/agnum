@@ -24,7 +24,7 @@ export default function NavBar() {
                         </svg>
                     </div>
                     <ul className={menuOpen ? "open" : ""}>
-                        <li><Link to="/apiemus">Apie mus</Link></li>
+                        <li><Link to="/apiemus">MobX</Link></li>
                         <li><Link to="/paslaugos">Paslaugos</Link></li>
                         <li><Link to="/karjera">Karjera</Link></li>
                         <li><Link to="/apskaitosimones">Apskaitos Įmonės</Link></li>
