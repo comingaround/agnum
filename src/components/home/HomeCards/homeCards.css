@@ -1,9 +1,9 @@
 .homeCards_main {
-    padding-bottom: 64px;
+    padding: 64px 0;
 }
 .homeCards_main h2 {
     text-align: center;
-    padding: 64px 0;
+    padding-bottom: 64px;
 }
 .hCm_cards {
     display: flex;
@@ -22,6 +22,7 @@
     padding: 0 32px;
     border: 1px solid black;
     padding: 32px 0;
+    border-radius: 8px;
 }
 .hCm_card_item h6 {
     font-size: 1.5rem;
@@ -37,6 +38,9 @@
     min-height: 100px;
     width: 80%;
     margin: 0 auto;
+}
+.h_b2b_disclaimer > p:nth-child(1) {
+    width: 70%;
 }
 .hCm_card_item button {
     width: 50%;

@@ -1,6 +1,54 @@
+.home_b2b_main {
+    padding-bottom: 64px;
+}
 .h_b2b_title {
     text-align: center;
+    padding-bottom: 32px;
 }
 .h_b2b_title h2 {
-    padding-bottom: 24px;
+    padding-bottom: 16px;
+}
+.h_b2b_partners {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin:  0 auto;
+    flex-wrap: wrap;
+}
+.h_b2bpartners_item {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h_b2bpartners_item img {
+    width: 100%;
+}
+.h_b2b_disclaimer {
+    width: 80%;
+    margin: 32px auto;
+    text-align: center;
+    padding: 32px 0;
+    border-radius: 8px;
+    background-color: black;
+}
+.h_b2b_disclaimer p {
+    color: white;
+    padding-bottom: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
+.h_b2b_disclaimer button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+@media (max-width: 992px) {
+    .h_b2b_partners {
+        width: 100%;
+    }
+    .h_b2bpartners_item {
+        width: 15%;
+    }
 }

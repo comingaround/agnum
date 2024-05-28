@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    position: relative;
 }
 .hhm_heading {
     position: relative;
@@ -19,9 +19,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .hhm_solutions {
-    position: relative;
+    position: absolute;
     width: 95%;
-    top: 10%;
+    bottom: 5%;
     left: 5%;
 }
 .hhmS_item {
@@ -55,7 +55,7 @@
 }
 .hhmS_circle {
     position: absolute;
-    top: 86px;
+    top: 130px;
     left: 298px;
     border: 1px solid black;
     padding: 48px 32px;
@@ -66,4 +66,14 @@
     text-align: center;
     font-size: 1.5rem;
     color: white;
+}
+@media (max-width: 992px) {
+    .hhmS_item section {
+        gap: 16px;
+        text-wrap: nowrap;
+    }
+    .hhm_solutions {
+        left: 50%;
+        transform: translate(-50%);
+    }
 }
