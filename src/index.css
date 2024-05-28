@@ -9,6 +9,7 @@ body {
   width: 100%;
   background-color: #F9F9F9;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 body ul,
 body a {
