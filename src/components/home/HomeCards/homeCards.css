@@ -9,13 +9,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 32px;
-    margin: 0 64px;
+    gap: 64px;
+    margin: 0 128px;
 }
 .hCm_card_item {
     position: relative;
     flex-basis: 25%;
-    height: 400px;
+    aspect-ratio: 1 / 1.5;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -46,4 +46,20 @@
     color: white;
     padding: 12px 0;
     border-radius: 13px;
+}
+.hCm_card_item button:hover {
+    cursor: pointer;
+}
+.card_arrow_right {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+@media (max-width:992px) {
+    .hCm_cards {
+        flex-wrap: wrap;
+    }
+    .hCm_card_item {
+        flex-basis: 40%;
+    }
 }
