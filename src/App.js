@@ -8,6 +8,7 @@ import ApskaitosImones from './routes/ApskaitosImones';
 import Atstovai from './routes/Atstovai';
 import Kontaktai from './routes/Kontaktai';
 import IsbandykNemokamai from "./routes/IsbandykNemokamai";
+import Footer from './components/general/footer/footer';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/kontaktai' element={<Kontaktai />} />
         <Route path='/isbandyknemokamai' element={<IsbandykNemokamai />} />
       </Routes>
+      <Footer />
     </>
   );
 }

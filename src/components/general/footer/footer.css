@@ -1,0 +1,36 @@
+.footer_main {
+    background-color: black;
+    padding: 64px 128px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer_main > div {
+    width: 33%;
+    text-align: center;
+}
+.footer_button button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+}
+.footer_logo img {
+    width: 40%;
+}
+.footer_contacts {
+    color: white;
+    text-align: start!important;
+}
+.footer_contacts h6 {
+    font-size: 1.25rem;
+    padding-bottom: 32px;
+}
+.footer_contacts p:nth-child(3) {
+    margin: 12px 0;
+}
+@media (max-width: 992px) {
+    .footer_main {
+        padding: 64px 32px;
+    }
+}

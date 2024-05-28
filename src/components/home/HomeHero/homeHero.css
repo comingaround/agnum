@@ -67,6 +67,51 @@
     font-size: 1.5rem;
     color: white;
 }
+@media (min-width: 1700px) {
+    .hhmS_item {
+        display: flex;
+        margin: 5% 0;
+        width: 100%;
+    }
+    .hhmS_item section {
+        display: flex;
+        gap: 32px;
+        font-size: 2rem;
+    }
+    .hhmS_item section svg {
+        fill: white;
+        border: 1px solid black;
+        background-color: black;
+        padding: 2px;
+    }
+    .hhm_solutions .hhmS_item:nth-child(1),
+    .hhm_solutions .hhmS_item:nth-child(5) {
+        padding-left: 10%;
+        gap: 17%;
+    }
+    .hhm_solutions .hhmS_item:nth-child(2),
+    .hhm_solutions .hhmS_item:nth-child(4) {
+        padding-left: 5%;
+        gap: 27%;
+    }
+    .hhm_solutions .hhmS_item:nth-child(3) {
+        gap: 34%;
+    }
+    .hhmS_circle {
+        position: absolute;
+        top: 21%;
+        left: 17%;
+        border: 1px solid black;
+        padding: 8%;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .hhmS_circle p{
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+    }
+}
 @media (max-width: 992px) {
     .hhmS_item section {
         gap: 16px;
